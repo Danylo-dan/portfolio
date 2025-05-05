@@ -24,8 +24,7 @@ init(autoreset=True, strip=False)
 KYIV_TZ = pytz.timezone('Europe/Kiev')
 # Налаштування папки відносно операційної системи
 signals_dir = (
-    r"C:\programmes\other\Arbitrage\Arbitrage\binance_spot_signals" if platform.system() == "Windows"
-    else r"C:\programmes\other\Arbitrage\Arbitrage\binance_spot_signals"
+    r"C:\programmes\other\Arbitrage\Arbitrage\binance_spot_signals"
 )
 
 # Налаштування
